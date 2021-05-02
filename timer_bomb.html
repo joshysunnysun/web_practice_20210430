@@ -11,7 +11,7 @@
 
     <!-- Bootstrap core CSS -->
     <link href="dist/css/bootstrap.min.css" rel="stylesheet">
-    <link href="randomselector/style.css" rel="stylesheet">
+    <link href="TimerBombpractice/style.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
     <link href="carousel.css" rel="stylesheet">
@@ -29,8 +29,8 @@
             <li class="nav-item">
               <a class="nav-link" href="index.html">Home</a>
             </li>
-            <li class="nav-item active">
-              <a class="nav-link" href="#">RandomSelector <span class="sr-only">(current)</span></a>
+            <li class="nav-item">
+              <a class="nav-link" href="random_selector.html">RandomSelector</a>
             </li>
             <li class="nav-item">
               <a class="nav-link disabled" href="mouse_move.html">MouseMove</a>
@@ -38,8 +38,8 @@
             <li class="nav-item">
               <a class="nav-link disabled" href="clock.html">Clock</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link disabled" href="timer_bomb.html">TimerBomb</a>
+            <li class="nav-item active">
+              <a class="nav-link disabled" href="#">TimerBomb <span class="sr-only">(current)</span></a>
             </li>
             
             <li class="nav-item">
@@ -55,19 +55,18 @@
     </header>
 
     <main role="main">
+
       <div class="container marketing">
         <hr class="featurette-divider">
-        <h1>?</h1>
-        <input type="button" value="今天晚上吃什麼">
-        <ul id="choices">
-          <li title="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/%E6%96%B0%E5%A2%9E%E5%B0%88%E6%A1%88-1570511204.jpg?crop=0.495xw:0.990xh;0,0&resize=640:*">拉麵</li>
-          <li title="https://d3l76hx23vw40a.cloudfront.net/recipe/yqn093-027c.jpg">滷肉飯</li>
-          <li title="https://linky.tw/wp-content/uploads/2018/06/57eca2287749c_1024-1000x600.jpg">水餃</li>
-          <li title="http://s2.itislooker.com/imgs/201806/25/4/15299158081878.png">麥當勞</li>
-      </ul>
-      <img>
-
+    <div id="timer_body_div">
+        <input type="text" id="userInput">
+        <button id="enter">Enter</button>
+        <button id="restart">Restart</button>
+        <p id="hint"></p>
+        <div id="timer"></div>
+    </div>
         <hr class="featurette-divider">
+
 
       </div><!-- /.container -->
 
@@ -88,6 +87,6 @@
     <script src="dist/js/bootstrap.min.js"></script>
     <!-- Just to make our placeholder images work. Don't actually copy the next line! -->
     <script src="assets/js/vendor/holder.min.js"></script>
-    <script src="RandomSelector/main.js"></script>
+    <script src="TimerBombpractice/main.js"></script>
   </body>
 </html>

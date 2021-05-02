@@ -1,0 +1,28 @@
+/*table{
+    text-align: center;
+    border-collapse: collapse;
+    border: 2px dashed darkorange;
+}
+tr,td,th{
+    border: 1px solid gray;
+    padding: 3px;
+}
+td:hover{
+    background-color: pink;
+    font-weight: 600;
+}
+th{
+    background-color: antiquewhite;
+}*/
+
+#club_div{
+    text-align: center;
+}
+#courseTable{
+    width: 60%;
+    margin: auto;
+    font-size: 1.5em;
+}
+td{
+    border-bottom: 1px solid blue;
+}

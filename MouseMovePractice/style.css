@@ -1,0 +1,15 @@
+#random_div {
+    width: 40%;
+    height: 200px;
+    background-color: darkgrey;
+    cursor: url(man.png),auto;
+}
+#random_p{
+    height: 30px;
+    font-size: large;
+    background-color: plum;
+}
+#random_h1 {
+    margin-top: 10px;
+    background-color: tan;
+}
